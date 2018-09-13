@@ -79,7 +79,7 @@ def get_average_age_for_season(data, season)
   ages
   i = 0
   sum = 0
-  while counter < ages.size
+  while i < ages.size
    sum = ages[i] + sum
    i += 1
    binding.pry
